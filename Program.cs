@@ -82,7 +82,7 @@ namespace BigO {
             var lBound = 0;
             var uBound = inputData.Length;                        
             
-            Console.WriteLine ("O(Log(n)): This function will take less time to complete than it would if it will iterate over each element");
+            Console.WriteLine ("O(Log(n)): This function will take less time to complete than it would if it had to iterate over each element");
             var numberToFind = inputData[new Random().Next(0, uBound - 1)];
             Console.WriteLine($"Looking for value: {numberToFind}");            
 
