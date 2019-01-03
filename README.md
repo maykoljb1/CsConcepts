@@ -77,7 +77,7 @@ Be careful with this one, it means that **the execution time will be squared bas
 And you used to think that those mathematic classes at high school were not useful uh?, log(n) is equivalent to say: 2^x where x < n, which in good christian means that **the function will always do less iterations than the length of the array (therefore less time in compleat)**, sounds cool right? how can we accomplish that? A common example is by using binary search operation. Example:
 
 ``` cs
-	    static int[] OuLogN (int[] inputData) {
+	static int[] OuLogN (int[] inputData) {
            var iterations = 0;
            var executionTime = 0;
            var idx = 0;
